@@ -101,7 +101,7 @@ export const CalculadoraMain = () => {
                 });
             }
             // Realizar la solicitud al backend
-            const response = await fetch('/generar_excel/', {
+            const response = await fetch('https://back-trasteat-bbb5675bd933.herokuapp.com/generar_excel/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
