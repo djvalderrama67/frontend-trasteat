@@ -1,17 +1,28 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchWarehouses } from '../actions/WareHouse';
 
 const homeImages = require.context('../components/icons/Bodega', true);
 const limitImage = require.context('../components/icons/Carga_limite', true);
 
-const Vehicles = ({ totalVolumen }) => {
+const Vehicles = ({ totalVolumen, onWarehouseChange }) => {
     const dispatch = useDispatch();
     const warehouses = useSelector((state) => state.reduxWareHouse.warehouses);
+    const [selectedWarehouse, setSelectedWarehouse] = useState(null);
 
     useEffect(() => {
         dispatch(fetchWarehouses());
     }, [dispatch]);
+
+    useEffect(() => {
+        const filteredWarehouses = warehouses.filter(warehouse => totalVolumen > 0 && totalVolumen <= warehouse.volumen);
+        if (filteredWarehouses.length > 0) {
+            setSelectedWarehouse(filteredWarehouses[0]);
+            onWarehouseChange(filteredWarehouses[0]); // Llama a la función del componente padre
+        } else {
+            setSelectedWarehouse(null);
+        }
+    }, [totalVolumen, warehouses, onWarehouseChange]);
 
     const filteredWarehouses = warehouses.filter(warehouse => totalVolumen > 0 && totalVolumen <= warehouse.volumen);
 

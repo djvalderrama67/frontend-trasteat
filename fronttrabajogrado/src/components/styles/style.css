@@ -487,4 +487,9 @@ h3{
     text-align: center;
 }
 
-
+.container-object-special-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 10px; /* Ajusta el margen según sea necesario */
+}
