@@ -26,21 +26,6 @@ export const ConsejosMain = () => {
                         <br /><b>3. Etiquetar:</b>  Etiqueta cada caja con el nombre de la habitación y el contenido para facilitar el desempaque.<br />
                         <br /><b>4. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
                         <br /><b>5. Cajas de plástico:</b>  Utiliza cajas de plástico para objetos frágiles y valiosos.<br />
-                        <br /><b>6. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
-                        <br /><b>7. Cajas de plástico:</b>  Utiliza cajas de plástico para objetos frágiles y valiosos.<br />
-                        <br /><b>8. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
-                        <br /><b>9. Cajas de plástico:</b>  Utiliza cajas de plástico para objetos frágiles y valiosos.<br />
-                        <br /><b>10. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
-                        <br /><b>11. Cajas de plástico:</b>  Utiliza cajas de plástico para objetos frágiles y valiosos.<br />
-                        <br /><b>12. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
-                        <br /><b>13. Cajas de plástico:</b>  Utiliza cajas de plástico para objetos frágiles y valiosos.<br />
-                        <br /><b>14. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
-                        <br /><b>15. Cajas de plástico:</b>  Utiliza cajas de plástico para objetos frágiles y valiosos.<br />
-                        <br /><b>16. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
-                        <br /><b>17. Cajas de plástico:</b>  Utiliza cajas de plástico para objetos frágiles y valiosos.<br />
-                        <br /><b>18. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
-                        <br /><b>19. Cajas de plástico:</b>  Utiliza cajas de plástico para objetos frágiles y valiosos.<br />
-                        <br /><b>20. Cajas de cartón:</b>  Utiliza cajas de cartón de diferentes tamaños para empacar objetos de diferentes tamaños.<br />
                         <br /><br />Recuerda que un embalaje cuidadoso ayudará a que tus pertenencias lleguen en buen estado a tu nuevo hogar.<br />¡Buena suerte con tu mudanza!</p>
                     <div className='instructivo-button'>
                         <CustomButton content="Volver al Inicio" link="#consejos" />
