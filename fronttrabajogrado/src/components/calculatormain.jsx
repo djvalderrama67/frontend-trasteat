@@ -101,7 +101,7 @@ export const CalculadoraMain = () => {
                 });
             }
             // Realizar la solicitud al backend
-            const response = await fetch('http://*/generar_excel/', {
+            const response = await fetch('http://trasteat.space/generar_excel/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
